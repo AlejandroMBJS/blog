@@ -15,9 +15,8 @@ const { title, description = "Blog profesional de Alejandro - Ghostwriter y Copy
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
+    <script src="https://cdn.tailwindcss.com">
+tailwind.config = {
         theme: {
           extend: {
             colors: {
@@ -28,8 +27,8 @@ const { title, description = "Blog profesional de Alejandro - Ghostwriter y Copy
             }
           }
         }
-      }
-    </script>
+      }</script>
+    
   </head>
   <body class="bg-dark-bg text-gray-100 min-h-screen">
     <slot />
